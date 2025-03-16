@@ -9,16 +9,26 @@ class AuthService {
 
   loggedIn() {
     const token = this.getToken();
-    return loggedUser;
+    return token;
     // TODO: return a value that indicates if the user is logged in
   }
   
   isTokenExpired(token: string) {
+    try {
+      const decoded = jwtDecode<JwtPayload>(token);
+      if (!decoded.exp) {
+        return false;
+      }
+      const currentTime = Date.now() / 1000; // Convert to seconds
+      return decoded.exp < currentTime;
+    } catch (error) {
+      return true; 
+    }
     // TODO: return a value that indicates if the token is expired
   }
 
   getToken(): string {
-    const loggedUser = localStorage.getItem('id_token');
+    const loggedUser = localStorage.getItem('id_token') || '';
     return loggedUser;
     // TODO: return the token
   }
