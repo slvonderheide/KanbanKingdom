@@ -1,7 +1,9 @@
-## KanBan Board
+
+## KanbanKingdom
 
 ## Description
-This project is a full-stack Kanban board application with user authentication using JSON Web Tokens (JWTs). The Kanban board allows users to manage tasks across different columns, representing various stages of completion. Authentication ensures secure access to user data and task management.
+This project is a Kanban Board application designed for agile teams to manage tasks efficiently. It features a secure login system using JSON Web Tokens (JWT) for authentication, ensuring that users can securely access and manage their work. The application provides an intuitive interface to visualize tasks, track progress, and collaborate with team members.
+
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,18 +14,23 @@ This project is a full-stack Kanban board application with user authentication u
 - [Questions](#questions)
 
 ## Installation
-1. Clone the repository:git clone  <repository-url>
-2. Navigate to the project directory:cd employee-tracker
-3. Install dependencies:npm install
-4. Install Inquirer v8.2.4:npm i inquirer@8.2.4
+
+1. Clone the repository.
+2. Install dependencies for both frontend and backend. 
+3. Start the server and client.
 
 ## Usage
-1. Clone the repository.
-2. Navigate to the project directory.
-3. Install dependencies for both client and server
-4. Configure the database: Create a PostgreSQL database using the provided schema.Create a .env file with the following variables.
-5. Start the server and client.
-6. Navigate to the local host to the login page. Enter valid credentials to authenticate the Kanban board
+React, TypeScript, Node.js, Express.js, PostgreSQL, JWT, 
+
+## Contributing
+Contributions are welcome! Please follow the contributing guidelines to get started.
+
+## Tests
+"Run the following command to execute tests: npm dev. Make sure all tests pass before submitting any changes."
+
+## Images 
+![KanbanBoard](./client/public/Screenshot%202025-03-17%20120231.png)
+
 
 ## Contributing
 We welcome contributions! Please follow these steps: 1. Fork the repository. 2. Create a new branch: git checkout -b feature-name. 3. Make your changes and commit them. 4. Push the changes: git push origin feature-name. 5. Submit a pull request.
@@ -31,13 +38,15 @@ We welcome contributions! Please follow these steps: 1. Fork the repository. 2. 
 ## Tests
 "Run the following command to execute tests: npm test. Make sure all tests pass before submitting any changes."
 
+
 ## License
 This project is licensed under the MIT License.
 
 ## Questions
 If you have any questions, feel free to reach out to me:
-- GitHub: [slvonderheide](https://github.com/slvonderheide/KanbanKingdom)
-- Email: slvonderheide@gmail.com
 
-## Screenshots
-![alt text](login.png)
+- GitHub: [slvonderheide](https://github.com/slvonderheide)
+- Email: slvonderheide@gmail.com
+        
+=
+
