@@ -17,7 +17,7 @@ if (!user) {
 const passwordIsValid = await bcrypt.compare(password, user.password);
 // If password is invalid, send an authentication failed response
 if (!passwordIsValid) {
-  return res.status(401).json({ message: 'Authentication failed' });
+  return res.status(400).json({ message: 'Authentication failed' });
 }
 
 // Get the secret key from environment variables
