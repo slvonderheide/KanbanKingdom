@@ -25,7 +25,7 @@ Contributions are welcome! Please follow the contributing guidelines to get star
 ## Tests
 "Run the following command to execute tests: npm dev. Make sure all tests pass before submitting any changes."
 
-## Imagies 
+## Images 
 ![KanbanBoard](./client/public/Screenshot%202025-03-17%20120231.png)
 ## License
 This project is licensed under the MIT License.
